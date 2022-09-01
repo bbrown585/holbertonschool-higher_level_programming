@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 def raise_exceptions():
-    raise TypeError
+    a = 'foo'
+    b = 'bar'
+    c = a + b
