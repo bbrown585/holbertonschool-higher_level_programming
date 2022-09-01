@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def raise_exceptions():
-    a = 'foo'
-    b = 4
+    a = "burgers"
+    b = 8
     c = a + b
