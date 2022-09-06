@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     sqmatrix = []
-    for i in range(len(sqmatrix)):
-        sqmatrix[i] = list(map(lambda a: a ** 2, sqmatrix[i]))
-        return (sqmatrix)
+    for i in matrix[:]:
+        sqmatrix.append(list(map(lambda a: a ** 2, sqmatrix)))
+    return sqmatrix
