@@ -5,6 +5,11 @@
 class Rectangle():
     """Rectangle class"""
     def __init__(self, width=0, height=0):
+        """ rectangle
+        Args:
+            width: width
+            height: height
+        """
         self.height = height
         self.width = width
 
