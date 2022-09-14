@@ -46,3 +46,9 @@ class Rectangle():
         if self.__height == 0 or self.__width == 0:
             return 0
         return (self.__height + self.__width) * 2
+    
+    def __str__(self):
+        """return the string rep of rectangle"""
+        if self.width == 0 or self.height == 0:
+            return ""
+        return (("#" * self.width + "\n") * self.height) [:-1]
