@@ -80,13 +80,13 @@ class Rectangle(Base):
         print(rep, end='')
 
     def __str__(self):
-        '''str info about a rectangle'''
+        """str info about a rectangle"""
         return '[{}] ({}) {}/{} - {}/{}'.\
             format(type(self).__name__, self.id, self.x, self.y, self.width,
                    self.height)
 
     def __update(self, id=None, width=None, height=None, x=None, y=None):
-        '''update instance attributes via */**args'''
+        """update instance attributes via */**args"""
         if id is not None:
             self.id = id
         if width is not None:
@@ -97,3 +97,15 @@ class Rectangle(Base):
             self.x = x
         if y is not None:
             self.y = y
+
+    def update(self, *args, **kwargs):
+        """update instance attributes via */** args"""
+        if args:
+            self.__update(*args)
+        elif kwargs:
+            self.__update(**kwargs)
+
+    def to_dictionary(self):
+        """dictionary rep of a class"""
+        return {"id": self.id, "width": self.__width, "height": self.__height,
+                "x": self.__x, "y": self.__y}
