@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - sandbox",
+			"uri": "ssh://sandbox/"
+		}
+	],
+	"settings": {}
+}
