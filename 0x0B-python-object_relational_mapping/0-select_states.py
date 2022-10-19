@@ -4,6 +4,7 @@ from sys import argv
 import MySQLdb
 
 if __name__ == "__main__":
+    """Doc"""
     conn = MySQLdb.connect(user=argv[1], passwd=argv[2], db=argv[3])
     kerr = conn.cursor()
     kerr.execute("SELECT * FROM states ORDER BY id ASC")
