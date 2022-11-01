@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" a doc for sends a request to the URL and displays the value of the X-Request-ID"""
+""" doc for a request to the URL and displays the value of the X-Request-ID"""
 import urllib.request
 from sys import argv
 
