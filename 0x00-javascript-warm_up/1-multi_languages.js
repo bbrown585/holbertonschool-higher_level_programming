@@ -1,6 +1,6 @@
 #!/usr/bin/node
-const c = 'C is fun\n';
-const serpent = 'Python is cool\n';
+const c = 'C is fun';
+const serpent = 'Python is cool';
 const coffee = 'Javascript is amazing';
 
-console.log(c + serpent + coffee);
+console.log(c); console.log(serpent); console.log(coffee);
