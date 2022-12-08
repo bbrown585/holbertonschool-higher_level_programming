@@ -72,4 +72,4 @@ Javascript script that fetches and lists all movies title by using this URL: `ht
 * All movie titles must be list in the HTML tag UL#list_movies
 
 ## 9. Say Hello!
-Javascript script that fetches from `https://fourtonfish.com/hellosalut/?lang=fr` and displays the value of hello from that fetch in the HTML’s tag DIV#hello.
+Javascript script that fetches from `https://stefanbohacek.com/hellosalut/?lang=fr` and displays the value of hello from that fetch in the HTML’s tag DIV#hello.
